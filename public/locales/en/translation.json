@@ -1,0 +1,90 @@
+{
+	"mainPage": {
+		"title": "Main page",
+		"text": "Some information about the application, etc. is possible here."
+	},
+	"navigation": {
+		"main": "Main",
+		"models": {
+			"title": "Models",
+			"list": "Models list",
+			"create": "Model create"
+		},
+		"attrubutes": {
+			"title": "Attrubutes",
+			"list": "Fields list",
+			"create": "Field create"
+		}
+	},
+	"models": {
+		"list": {
+			"pageTitle": "List of models",
+			"table": {
+				"num": "Num",
+				"title": "Title",
+				"name": "Name",
+				"fields": "Fields",
+				"actions": "Actions"
+			}
+		},
+		"edit": {
+			"pageTitle": "Model editor",
+			"table": {
+				"subTitle1": "Model",
+				"subTitle2": "Model fields"
+			}
+		},
+		"create": {
+			"pageTitle": "Create new model"
+		}
+	},
+	"fields": {
+		"list": {
+			"pageTitle": "List of fields",
+			"table": {
+				"num": "Num",
+				"title": "Title",
+				"name": "Name",
+				"link": "Affiliation",
+				"actions": "Actions"
+			}
+		},
+		"edit": {
+			"pageTitle": "Field editor",
+			"isMultiple": "Is this an array of values?",
+			"isRequired": "Is this required field?",
+			"placeholder": "Placeholder",
+			"title": "Title",
+			"name": "Name",
+			"type": "Type"
+		},
+		"create": {
+			"pageTitle": "Create new field"
+		}
+	},
+	"buttons": {
+		"save": "Save",
+		"wait": "Wait..."
+	},
+	"validation": {
+		"requiredText": "Field required",
+		"minLen": "Should be less",
+		"maxLen": "Must have more"
+	},
+	"toast": {
+		"text": "{{type}} {{action}} successfully !",
+		"model": "Model",
+		"field": "Field",
+		"del": "deleted",
+		"create": "created",
+		"edit": "edited"
+	},
+	"errors": {
+		"title": "YoY!",
+		"textTop": "Something went wrong",
+		"textBottom": "(but we will try to fix everything in the near future)"
+	},
+	"sync": {
+		"now": "Sync now"
+	}
+}
