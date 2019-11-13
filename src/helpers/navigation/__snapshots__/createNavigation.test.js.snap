@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`function createNavigation should be one nav 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Navigation
+    arrLinks={
+      Array [
+        Object {
+          "icon": Object {
+            "icon": Array [],
+            "iconName": "iconName",
+            "prefix": "prefix",
+          },
+          "title": "navigation.main",
+          "to": "/",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className="nav-item"
+        >
+          <NavLink
+            activeClassName="active2"
+            className="nav-item  nav-link  header-nav"
+            to="/"
+          >
+            <div
+              className="nav-wrap"
+            >
+              <FontAwesomeIcon
+                className="mr-1"
+                icon={
+                  Object {
+                    "icon": Array [],
+                    "iconName": "iconName",
+                    "prefix": "prefix",
+                  }
+                }
+              />
+              <Trans
+                i18nKey="navigation.main"
+              />
+            </div>
+          </NavLink>
+        </li>,
+      ],
+      "className": "navbar-nav",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "/",
+        "nodeType": "host",
+        "props": Object {
+          "children": <NavLink
+            activeClassName="active2"
+            className="nav-item  nav-link  header-nav"
+            to="/"
+          >
+            <div
+              className="nav-wrap"
+            >
+              <FontAwesomeIcon
+                className="mr-1"
+                icon={
+                  Object {
+                    "icon": Array [],
+                    "iconName": "iconName",
+                    "prefix": "prefix",
+                  }
+                }
+              />
+              <Trans
+                i18nKey="navigation.main"
+              />
+            </div>
+          </NavLink>,
+          "className": "nav-item",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active2",
+            "children": <div
+              className="nav-wrap"
+            >
+              <FontAwesomeIcon
+                className="mr-1"
+                icon={
+                  Object {
+                    "icon": Array [],
+                    "iconName": "iconName",
+                    "prefix": "prefix",
+                  }
+                }
+              />
+              <Trans
+                i18nKey="navigation.main"
+              />
+            </div>,
+            "className": "nav-item  nav-link  header-nav",
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FontAwesomeIcon
+                  className="mr-1"
+                  icon={
+                    Object {
+                      "icon": Array [],
+                      "iconName": "iconName",
+                      "prefix": "prefix",
+                    }
+                  }
+                />,
+                <Trans
+                  i18nKey="navigation.main"
+                />,
+              ],
+              "className": "nav-wrap",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "className": "mr-1",
+                  "icon": Object {
+                    "icon": Array [],
+                    "iconName": "iconName",
+                    "prefix": "prefix",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "i18nKey": "navigation.main",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="nav-item"
+          >
+            <NavLink
+              activeClassName="active2"
+              className="nav-item  nav-link  header-nav"
+              to="/"
+            >
+              <div
+                className="nav-wrap"
+              >
+                <FontAwesomeIcon
+                  className="mr-1"
+                  icon={
+                    Object {
+                      "icon": Array [],
+                      "iconName": "iconName",
+                      "prefix": "prefix",
+                    }
+                  }
+                />
+                <Trans
+                  i18nKey="navigation.main"
+                />
+              </div>
+            </NavLink>
+          </li>,
+        ],
+        "className": "navbar-nav",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "/",
+          "nodeType": "host",
+          "props": Object {
+            "children": <NavLink
+              activeClassName="active2"
+              className="nav-item  nav-link  header-nav"
+              to="/"
+            >
+              <div
+                className="nav-wrap"
+              >
+                <FontAwesomeIcon
+                  className="mr-1"
+                  icon={
+                    Object {
+                      "icon": Array [],
+                      "iconName": "iconName",
+                      "prefix": "prefix",
+                    }
+                  }
+                />
+                <Trans
+                  i18nKey="navigation.main"
+                />
+              </div>
+            </NavLink>,
+            "className": "nav-item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active2",
+              "children": <div
+                className="nav-wrap"
+              >
+                <FontAwesomeIcon
+                  className="mr-1"
+                  icon={
+                    Object {
+                      "icon": Array [],
+                      "iconName": "iconName",
+                      "prefix": "prefix",
+                    }
+                  }
+                />
+                <Trans
+                  i18nKey="navigation.main"
+                />
+              </div>,
+              "className": "nav-item  nav-link  header-nav",
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <FontAwesomeIcon
+                    className="mr-1"
+                    icon={
+                      Object {
+                        "icon": Array [],
+                        "iconName": "iconName",
+                        "prefix": "prefix",
+                      }
+                    }
+                  />,
+                  <Trans
+                    i18nKey="navigation.main"
+                  />,
+                ],
+                "className": "nav-wrap",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "className": "mr-1",
+                    "icon": Object {
+                      "icon": Array [],
+                      "iconName": "iconName",
+                      "prefix": "prefix",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "i18nKey": "navigation.main",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
