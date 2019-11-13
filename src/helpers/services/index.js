@@ -1,0 +1,1 @@
+export { getFetchInstanse } from './instance';
