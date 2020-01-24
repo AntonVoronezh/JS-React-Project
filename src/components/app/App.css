@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+}
+
+.container {
+    /* margin-top: 20px; */
+    min-height: 100vh;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-top {
+    min-height: 75px;
+}
+
+.app-center {
+    flex: 1;
+    min-height: calc(100vh - 105px - 2px);
+}
+
+.app-bottom {
+    min-height: 30px;
+}
