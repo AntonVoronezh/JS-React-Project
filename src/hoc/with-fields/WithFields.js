@@ -2,9 +2,9 @@ import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { fetchFields, fieldsCreators } from '../../store/actions';
-import { Spinner, FetchError, SyncBtn } from '../../components/elements';
-import { getFieldsState, getFieldsErrorState } from '../../store/selectors';
+import {fetchFields, fieldsCreators} from '../../store/actions';
+import {Spinner, FetchError, SyncBtn222} from '../../components/elements';
+import {getFieldsState, getFieldsErrorState} from '../../store/selectors';
 import { ErrorBoundary } from '../../hoc';
 import ui from '../../helpers/libs/ui';
 import dal from '../../helpers/libs/dal';
@@ -33,8 +33,8 @@ function WithFields(WrappedComponent) {
 			if (errorMsg) {
 				return (
 					<Fragment>
-						<FetchError err={errorMsg} />
-						<SyncBtn syncNow={fetchFields} />
+						<FetchError err={errorMsg}/>
+						<SyncBtn222 syncNow={fetchFields}/>
 					</Fragment>
 				);
 			}
