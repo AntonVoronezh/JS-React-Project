@@ -5,9 +5,9 @@ import configureMockStore from 'redux-mock-store';
 import { Provider } from 'react-redux';
 
 import { WithModels } from './WithModels';
-import { Spinner } from '../../components/elements/spinner/Spinner';
-import { SyncBtn } from '../../components/elements/sync-btn/SyncBtn';
-import { FetchError } from '../../components/elements/fetch-error/FetchError';
+import {Spinner} from '../../components/elements/spinner/Spinner';
+import {SyncBtn222} from '../../components/elements/sync-btn/SyncBtn222';
+import {FetchError} from '../../components/elements/fetch-error/FetchError';
 import ui from '../../helpers/libs/ui';
 import dal from '../../helpers/libs/dal';
 
