@@ -1,0 +1,19 @@
+.del {
+    margin-left: 10px;
+    color: red;
+}
+
+.del:hover {
+    margin-left: 10px;
+    color: orange;
+    cursor: pointer;
+}
+
+.edit {
+    color: green;
+}
+
+.edit:hover {
+
+    color: greenyellow;
+}
