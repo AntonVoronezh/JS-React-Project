@@ -4,10 +4,10 @@ import {Switch} from 'react-router-dom';
 
 import './FieldsPage.css';
 import {RouteWithSubRoutes} from '../../../../hoc';
-import {navLinks, createNavigation} from '../../../../helpers/navigation';
+import {navLinks, Navigation} from '../../../../helpers/navigation';
 
 const FieldsPage = ({routes}) => {
-	const links = createNavigation(navLinks.fieldNav);
+	const links = Navigation(navLinks.fieldNav);
 
 	return (
 		<Fragment>
