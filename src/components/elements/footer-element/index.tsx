@@ -1,0 +1,1 @@
+export { FooterElement } from "./FooterElement";
