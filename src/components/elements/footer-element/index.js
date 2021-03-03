@@ -1,1 +1,0 @@
-export {FooterElement} from './FooterElement';
