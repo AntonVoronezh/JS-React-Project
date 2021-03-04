@@ -1,3 +1,4 @@
+// @ts-ignore
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
@@ -11,6 +12,7 @@ const { deleteField } = fieldsCreators.getFunctions();
 
 class FieldsListPageContainer extends Component {
 	render() {
+		// @ts-ignore
 		return <FieldsListPage {...this.props} />;
 	}
 }
@@ -24,4 +26,5 @@ const enhance = compose(
 	WithFields
 );
 
+// @ts-ignore
 export default enhance(FieldsListPageContainer);

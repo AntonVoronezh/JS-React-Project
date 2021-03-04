@@ -3,9 +3,9 @@ import React, { Fragment } from "react";
 import Select from "react-select";
 
 interface IProps {
-  label: string;
+  label?: string;
   fieldsListForSelect: string;
-  handleChange: () => void;
+  handleChange: (f:any) => void;
   defaultValue: string;
 }
 
