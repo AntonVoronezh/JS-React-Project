@@ -1,1 +1,0 @@
-export {HeaderElement} from './HeaderElement';

@@ -3,7 +3,7 @@ import {shallow} from 'enzyme';
 import Select from 'react-select';
 
 import {TypeSelect} from './TypeSelect';
-import {InputFeedback} from '../../../components/elements/formik-elems/formikElems';
+import {InputFeedback} from '../formik-elems/formikElems';
 
 describe('<TypeSelect />', () => {
 	let wrapper;

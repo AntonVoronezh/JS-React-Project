@@ -5,10 +5,10 @@ import Select from "react-select";
 import { InputFeedback } from "../index";
 
 interface IProps {
-  label: string;
+  label?: string;
   typesListForSelect: any;
-  error: string;
-  handleChange: () => void;
+  error?: string;
+  handleChange: (f: any) => void;
   defaultValue: string;
 }
 
