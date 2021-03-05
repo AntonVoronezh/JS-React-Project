@@ -1,3 +1,4 @@
+// @ts-ignore
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
@@ -11,6 +12,7 @@ const { deleteModel } = modelsCreators.getFunctions();
 
 class ModelsListPageContainer extends Component {
 	render() {
+		// @ts-ignore
 		return <ModelsListPage {...this.props} />;
 	}
 }
@@ -23,4 +25,5 @@ const enhance = compose(
 	withTranslation(),
 	WithModels,
 );
+// @ts-ignore
 export default enhance(ModelsListPageContainer);

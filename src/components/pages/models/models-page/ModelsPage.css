@@ -1,14 +1,14 @@
 .nav-wrap {
-    margin-right: 20px;
-    color: gray;
-    display: inline-block;
+  margin-right: 20px;
+  color: gray;
+  display: inline-block;
 }
 
 .nav-wrap:hover {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 .no-bor {
-    text-decoration: none;
-    width: 100%;
+  text-decoration: none;
+  width: 100%;
 }
