@@ -1,1 +1,0 @@
-export {TypeSelect} from './TypeSelect';
